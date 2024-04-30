@@ -14,7 +14,7 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 header, nav, main, footer {
@@ -22,6 +22,7 @@ header, nav, main, footer {
     margin: 1rem auto;
     padding: 1rem;
 }
+
 #picture {
     max-width: 65px;
 }
@@ -32,26 +33,26 @@ nav {
     justify-content: space-around;
     margin-top: -20px;
 }
-
-#section2 div {
-    display: flex;
-    justify-content: space-around;
+nav a {
+    color: white;
 }
 
 nav a:hover {
     background-color: saddlebrown;
 }
 
-header, footer, h2 {
+#section2 div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header, footer, main h2 {
     background-color: steelblue;
 }
 
 h2 {
     padding: 1rem;
-    text-align: center;
-}
-
-h1 {
     text-align: center;
 }
 
