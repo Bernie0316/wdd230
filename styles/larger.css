@@ -1,9 +1,9 @@
 @media screen and (min-width: 500px){
-    main {
+    #home-grid {
         display: grid;
     }
     h2 {
-        grid-template-columns: 1/10;
+        grid-column: 1/10;
     }
     #picture, section {
         border-radius: 3%;
