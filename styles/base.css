@@ -1,0 +1,71 @@
+/* Resets section */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+h2 {
+    margin: 0;
+}
+/* This is my main CSS file */
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+header, nav, main, footer {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+#picture {
+    max-width: 65px;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+
+#section2 div {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: saddlebrown;
+}
+
+header, footer, h2 {
+    background-color: steelblue;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    border-bottom: 1px solid #ccc;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.7rem;
+}
+
+.block {
+    color: black;
+}
+
+#flog {
+    max-width: 45px;
+}

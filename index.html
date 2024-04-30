@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bernie Zhong - WDD 230 - Web Frontend Development</title>
+    <meta name="Description" content="Bernie's wdd230 home page">
+    <meta name="Author" content="Bernie Zhong">
+    <link href="https://fonts.googleapies.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body id="content">
+    <header>
+        <img id="picture" src="images/IMG_0343.jpeg">
+        <h1>Bernie Zhong</h1>
+    </header>
+    <nav>
+        <a>Home</a>
+        <a>Chamber</a>
+        <a>Site Plan</a>
+        <a>Form</a>
+    </nav>
+    <div>
+        <h1 class="block" id="title">WDD 230: Web Frontend Development</h1>
+    </div>
+    <main home-grid>
+        <section alt="card" id="section1">
+            <h2>Learning Activities</h2>
+            <ul class="block">
+                <li>Week1: <a>Layout</a> | <a href="week01/media-query.html">Media Query</a> | <a>Js Pen</a></li>
+                <li>Week2:</li>
+                <li>Week3:</li>
+                <li>Week4:</li>
+                <li>Week5:</li>
+                <li>Week6:</li>
+            </ul>
+            An ul with list items li and anchors a for learning activities that will be populated throughout the the course.
+        </section>
+        <section class="card" id="section2">
+            <h2>
+                Information
+            </h2>
+            <div class="block">
+                <p id="location"></p>
+                <p id="weather"></p>
+                <p id="visits"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Bernie Zhong | Taiwan <img alt="flog" src="images/taiwan.png" id="flog">
+        <p>
+            The second paragraph has an id of "lastModified" and will be populated with JavaScript code.
+        </p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/base.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@media screen and (min-width: 500px){
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        grid-template-columns: 1/10;
+    }
+    #picture, section {
+        border-radius: 3%;
+        box-shadow: 0 0 30px dimgray;
+    }
+}
