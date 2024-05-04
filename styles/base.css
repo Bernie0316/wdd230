@@ -9,7 +9,7 @@ h2 {
 /* This is my main CSS file */
 body {
     font-family: "Roboto", sans-serif;
-    color: white;
+    color: #dde6ed;
 }
 
 header {
@@ -29,10 +29,9 @@ header, nav, main, footer {
 
 nav {
     background-color: black;
-    display: flex;
-    justify-content: space-around;
     margin-top: -20px;
 }
+
 nav a {
     color: white;
 }
@@ -48,7 +47,7 @@ nav a:hover {
 
 
 header, footer, main h2 {
-    background-color: steelblue;
+    background-color: #27374d;
 }
 
 h2 {

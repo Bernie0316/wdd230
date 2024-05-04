@@ -20,19 +20,19 @@ Fonts are separated by a | */
   --paragraph-font: "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: block;  /* headlines on a white background */ 
-  --headline-color-on-color: #dde6ed; /* headlines on a colored background */ 
-  --paragraph-color-on-white: block; /* paragraph text on a white background */ 
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: #27374d; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #dde6ed; /* paragraph text on a colored background */ 
   --paragraph-background-color: #526d82;
   --nav-link-color: white;
-  --nav-background-color: #27374d;
+  --nav-background-color: black;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: block;
+  --nav-hover-background-color: black;
 }
 
 .wireframe, #logo {
-  max-width: 300px;
+  max-width: 500px;
 }
 
 #logo {
