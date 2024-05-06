@@ -7,14 +7,19 @@ h2 {
     margin: 0;
 }
 /* This is my main CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Gloria+Hallelujah&family=Pixelify+Sans&display=swap');
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
     color: #dde6ed;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    font-family: "Gloria Hallelujah";
 }
 
 header, nav, main, footer {
@@ -28,16 +33,24 @@ header, nav, main, footer {
 }
 
 nav {
-    background-color: black;
-    margin-top: -20px;
+    list-style: none;
+    background-color: #333;
+    color: #fff;
+    max-width: 700px;
 }
 
-nav a {
-    color: white;
+nav a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+	color: #fff;
 }
 
-nav a:hover {
-    background-color: saddlebrown;
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
 }
 
 #section2 div {
