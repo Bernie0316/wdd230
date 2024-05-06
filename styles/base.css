@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    font-family: "Gloria Hallelujah";
+    font-family: "Gloria Hallelujah", "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
 }
 
 header, nav, main, footer {
@@ -73,6 +73,9 @@ h2 {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 1.7rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Gloria Hallelujah", "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
 }
 
 .block {
