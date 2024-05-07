@@ -7,7 +7,6 @@ h2 {
     margin: 0;
 }
 /* This is my main CSS file */
-@import url('https://fonts.googleapis.com/css2?family=Delius&family=Gloria+Hallelujah&family=Pixelify+Sans&display=swap');
 body {
     font-family: "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
     color: #dde6ed;
