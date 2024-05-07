@@ -16,6 +16,12 @@ body {
     color: black;
 }
 
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
