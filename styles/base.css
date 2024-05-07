@@ -12,6 +12,9 @@ body {
     font-family: "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
     color: #dde6ed;
 }
+.black {
+    color: black;
+}
 
 header {
     display: grid;
@@ -76,10 +79,6 @@ h2 {
     padding: 1rem;
     text-align: center;
     font-family: "Gloria Hallelujah", "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
-}
-
-.black {
-    color: black;
 }
 
 #flog {
