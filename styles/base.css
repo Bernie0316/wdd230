@@ -23,18 +23,9 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 150px auto;
 }
 
-h1 {
-    font-family: "Gloria Hallelujah", "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
-}
-
-header, nav, main, footer {
-    max-width: 800px;
-    margin: 1rem auto;
-    padding: 1rem;
-}
 
 #picture {
     max-width: 65px;

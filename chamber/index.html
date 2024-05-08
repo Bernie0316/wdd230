@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bernie Zhong - WDD 230 - Web Frontend Development</title>
-    <meta name="description" content="'WDD 230', Yi-Hsuan Chung, course assignment portal">
-    <meta name="author" content="Yi-Hsuan Chung">
+    <title>Chamber Home Page</title>
+    <meta name="Description" content="'WDD 230', Bernie Zhong, Chamber Home Page">
+    <meta name="Author" content="Bernie Zhong">
 <!--Normalize css apply-->
     <link rel="stylesheet" href="styles/normalize.css">
 <!--fonts-->
@@ -25,47 +25,39 @@
 </head>
 <body id="content">
     <header>
-        <img id="picture" src="images/IMG_0343.jpeg" alt="my picture">
-        <span>Bernie Zhong</span>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a>Discover</a>
+            <a>Directory</a>
+            <a>Join</a>
+        </nav>
     </header>
     <button id="menu"></button>
-    <nav class="navigation">
-        <a href="index.html">Home</a>
-        <a>Chamber</a>
-        <a href="week01/chamber-site-plan.html">Site Plan</a>
-        <a>Form</a>
-    </nav>
-    <!--如果只用文字就會有反白效果，有點醜
-    <div id="mode">🌗</div>-->
     <button id="mode">🌗</button>
-    <div>
-        <h1 class="black" id="title">WDD 230: Web Frontend Development</h1>
+    <div id="myweb">
+        <div id="myweb-box">
+            <img id="myweb-img" src="images/hero.webp" alt="Sduty more, more knowledge">
+        </div>
+        <section id="myweb-msg">
+            <h1 class="home-title">Chamber Home Page</h1>
+            <h4>This is chamber home page</h4>
+            <div class="button-box">
+                <a class="feedback" href="feedback.html">Join Us</a>
+            </div>
+        </section>
     </div>
     <main id="home-grid">
         <section id="section1">
-            <h2>Learning Activities</h2>
+            <h2>current Events</h2>
             <ul class="black">
-                <li>Week1: 
-                    <a>Layout</a> | 
-                    <a href="week01/media-query.html">Media Query</a> | 
-                    <a>Js Pen</a>
+                <li>List1: 
+                    <a>item</a> | 
+                    <a>item</a>
                 </li>
-                <li>Week2: 
-                    <a href="https://codepen.io/Bernie0316/pen/oNOKgxo">Design</a> | 
-                    <a href="week02/bom.html">bom</a>
-                </li>
-                <li>Week3:
-                    <a href="week03/images/landscape.webp">WebP</a> |
-                </li>
-                <li>Week4:</li>
-                <li>Week5:</li>
-                <li>Week6:</li>
             </ul>
         </section>
         <section class="card" id="section2">
-            <h2>
-                Information
-            </h2>
+            <h2>weather card</h2>
             <div class="black">
                 <p id="location"></p>
                 <p id="weather"></p>
@@ -74,10 +66,9 @@
         </section>
     </main>
     <footer>
-        &copy;<span id="year"></span> | Bernie Zhong | Taiwan <img alt="flog" src="images/taiwan.png" id="flog">
+        &copy;<span id="year"></span> | Bernie Zhong | WDD230 - Project
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
     <script src="scripts/base.js"></script>
     <script src="scripts/darkMode.js"></script>
 </body>
