@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
