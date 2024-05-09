@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 <!--Favicon-->    
-    <link rel="icon" href="images/favicon.ico">
+    <!--<link rel="icon" href="images/favicon.ico">-->
 <!--Open Graph meta tags.-->
     <meta property="og:title" content="Bernie Zhong">
     <meta property="og:type" content="website">
@@ -27,9 +27,9 @@
     <header>
         <nav class="navigation">
             <a href="index.html">Home</a>
-            <a>Discover</a>
-            <a>Directory</a>
-            <a>Join</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
         </nav>
     </header>
     <button id="menu"></button>
@@ -42,13 +42,13 @@
             <h1 class="home-title">Chamber Home Page</h1>
             <h4>This is chamber home page</h4>
             <div class="button-box">
-                <a class="feedback" href="feedback.html">Join Us</a>
+                <a class="join" href="Join.html">Join Us</a>
             </div>
         </section>
     </div>
     <main id="home-grid">
         <section id="section1">
-            <h2>current Events</h2>
+            <h2>Current Events</h2>
             <ul class="black">
                 <li>List1: 
                     <a>item</a> | 
@@ -57,7 +57,7 @@
             </ul>
         </section>
         <section class="card" id="section2">
-            <h2>weather card</h2>
+            <h2>Weather Card</h2>
             <div class="black">
                 <p id="location"></p>
                 <p id="weather"></p>
@@ -71,5 +71,7 @@
     </footer>
     <script src="scripts/base.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>

@@ -1,22 +1,16 @@
 /* Resets section */
 #content {
     max-width: 1600px;
-    margin: 0 auto;
+    margin: 0;
 }
 body {
-    font-size: 30px;
     margin: 0;
     padding: 0;
-    color: #dde6ed;
-    /*background-color: rgb(13, 13, 15);*/
+    font-size: 20px;
+    background-color: #dde6ed;
     font-family: "Saira", "Saira Semi Condensed", "Saira Extra Condensed", sans-serif;
 }
 
-/*header {
-    display: grid;
-    grid-template-columns: 150px auto;
-    /*background-color: rgba(15, 76, 117, .5);
-} */
 nav {
     display: flex;
     justify-content: space-around;
@@ -35,34 +29,64 @@ nav a:hover {
 #myweb {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -150px; /* 整個圖片會往上跑，蓋住圖片 */
+    margin-top: -150px; 
+    font-size: 30px;
 }
 #myweb-box {
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -1; /* 把順序往後 */
+    z-index: -1; 
 }
 
 .home-title {
     font-family: "Gloria Hallelujah", 'Delius', sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    color: #dde6ed;
 }
 #myweb-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 200px;
+    color: #dde6ed;
 }
 
-#myweb-msg h1, #myweb-msg h4, .button-box, main section{
+#myweb-msg h1, #myweb-msg h4, .button-box {
     text-align: center;
 }
 
 #myweb-img {
     width: 100%;
 }
+.join {
+    background-color: #9db2bf;
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
 /* main */
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
+#home-grid {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+section h2 {
+    background-color: #1b262c;
+    color: #dde6ed;
+    margin-top: 0;
+    padding: 1rem;
+    text-align: center;
+}
+section {
+    margin-top: 50px;
+    color: #1b262c;
+}
+#section1, #section2 {
+
+}
+
+footer {
+    text-align: center;
+    background-color: #526d82;
+    padding: 0.5rem;
+    margin-top: 100px;
 }
