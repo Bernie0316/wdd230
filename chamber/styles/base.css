@@ -14,6 +14,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: #1b262c;
 }
 nav a {
     text-align: center;
@@ -22,8 +23,8 @@ nav a {
     color: #dde6ed;
 }
 nav a:hover {
-    background-color: #1b262c;
-    color: white;
+    background-color: #dde6ed;
+    color: #1b262c;
 }
 
 #myweb {
@@ -80,9 +81,6 @@ section {
     margin-top: 50px;
     color: #1b262c;
 }
-#section1, #section2 {
-
-}
 
 footer {
     text-align: center;
@@ -90,3 +88,5 @@ footer {
     padding: 0.5rem;
     margin-top: 100px;
 }
+
+/* discover page */

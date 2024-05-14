@@ -13,6 +13,18 @@
     #section2 {
         grid-column: 7/11;
     }
+
+    /* discover-page */
+    .aside-page {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+    #side-bar {
+        grid-column: 1/5;
+    }
+    #main-bar {
+        grid-column: 6/10;
+    }
 }
 
 @media (max-width: 37.5em){
@@ -41,5 +53,17 @@
     }
     .open a {
         display: block;
-    }    
+    }   
+    
+    /* discover-page */
+    .aside-page {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    picture {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 } 
