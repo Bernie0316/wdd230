@@ -23,9 +23,12 @@ header {
     grid-template-columns: 150px auto;
 }
 
-
 #picture {
     max-width: 65px;
+}
+img { /* 讓照片隨著視窗調整 */
+    width: 100%;
+    height: auto;
 }
 
 nav {
@@ -53,14 +56,19 @@ nav a{
     justify-content: space-around;
 }
 
-
 header, footer, main h2 {
     background-color: #27374d;
+}
+
+#home-grid {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h2 {
     padding: 1rem;
     text-align: center;
+    margin-top: auto;
 }
 
 #title {

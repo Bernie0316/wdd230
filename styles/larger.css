@@ -15,11 +15,11 @@
         box-shadow: 0 0 30px dimgray;
     }
     #section1 {
-        grid-column: 2/6;
+        grid-column: 1/6;
     }
 
     #section2 {
-        grid-column: 7/9;
+        grid-column: 7/11;
     }
 
     /* Hambrger menu section */

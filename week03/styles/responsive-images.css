@@ -11,4 +11,10 @@ h1 {
 .hero {
     width: 100%;
     height: auto;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
