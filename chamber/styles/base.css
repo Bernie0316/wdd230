@@ -43,13 +43,18 @@ nav a:hover {
     font-family: "Gloria Hallelujah", 'Delius', sans-serif;
     font-size: 2em;
     margin-top: 10px;
-    color: #dde6ed;
+    color: #1b262c;
+    background-color: #dde6ed;
 }
 #myweb-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 200px;
-    color: #dde6ed;
+}
+
+#myweb-msg h4 {
+    background-color: #dde6ed;
+    color: #1b262c;
 }
 
 #myweb-msg h1, #myweb-msg h4, .button-box {
@@ -60,7 +65,7 @@ nav a:hover {
     width: 100%;
 }
 .join {
-    background-color: #9db2bf;
+    background-color: #dde6ed;
     padding: 0.5rem;
     border-radius: 5%;
 }
@@ -84,7 +89,8 @@ section {
 
 footer {
     text-align: center;
-    background-color: #526d82;
+    background-color: #1b262c;
+    color: #dde6ed;
     padding: 0.5rem;
     margin-top: 100px;
 }

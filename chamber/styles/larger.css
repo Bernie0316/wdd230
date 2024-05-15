@@ -15,15 +15,15 @@
     }
 
     /* discover-page */
-    .aside-page {
+    .container {
         display: grid;
-        grid-template-columns: repeat(10, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
     #side-bar {
-        grid-column: 1/5;
+        grid-column: 1/2;
     }
     #main-bar {
-        grid-column: 6/10;
+        grid-column: 2/3;
     }
 }
 
@@ -56,14 +56,4 @@
     }   
     
     /* discover-page */
-    .aside-page {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    picture {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 } 
