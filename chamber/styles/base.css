@@ -96,3 +96,19 @@ footer {
 }
 
 /* discover page */
+#discover-page {
+    max-width: 1600px;
+    margin: 0;
+}
+picture img {
+    width: 100%;
+    height: auto;
+}
+.aside-item {
+    padding: 10px;
+    border: 1px solid #1b262c;
+}
+
+picture img:hover {
+    box-shadow: 0 0 50px #333;
+}

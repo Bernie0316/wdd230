@@ -15,15 +15,19 @@
     }
 
     /* discover-page */
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    #container {
+        display: flex;
+        height: 100%;
     }
-    #side-bar {
-        grid-column: 1/2;
+    aside {
+        width: 40%;
+        padding: 10px;
+        box-sizing: border-box;
     }
-    #main-bar {
-        grid-column: 2/3;
+    #main-item {
+        width: 60%;
+        padding: 10px;
+        box-sizing: border-box;
     }
 }
 

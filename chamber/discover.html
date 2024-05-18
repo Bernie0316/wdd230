@@ -23,7 +23,7 @@
     <meta property="og:image" content="https://cdn-cw-english.cwg.tw/article/202308/article-64dc7e37cbe1f.jpg">
     <meta property="og:url" content="https://bernie0316.github.io/wdd230/">
 </head>
-<body id="content">
+<body id="discover-page">
     <header>
         <nav class="navigation">
             <a href="index.html">Home</a>
@@ -34,27 +34,31 @@
     </header>
     <button id="menu"></button>
     <button id="mode">🌗</button>
-    <aside class="container" id="side-bar">
-        <section>
-            <h3>Heading</h3>
-            <p>content</p>
-        </section>
-        <section>
-            <h3>Heading</h3>
-            <p>content</p>
-        </section>
-        <section></section>
-    </aside>
-    <main class="container" id="main-bar">
-        <picture>
-            <img src="images/discover/security-protection-anti-virus-software-60504.webp" alt="placeholder" loading="lazy" width="600" height="400">
-            <img src="images/discover/pexels-photo-351265.jpeg" alt="placeholder" loading="lazy" width="600" height="400">
-            <img src="images/discover/pexels-photo-5380792.webp" alt="placeholder" loading="lazy" width="600" height="400">
-            <img src="images/discover/pexels-photo-5474033.webp" alt="placeholder" loading="lazy" width="600" height="400">
-            <img src="images/discover/pexels-photo-5474288.webp" alt="placeholder" loading="lazy" width="600" height="400">
-            <img src="images/discover/pexels-photo-5483071.webp" alt="placeholder" loading="lazy" width="600" height="400">
-        </picture>
-    </main>
+    <div id="container">
+        <aside>
+            <div class="aside-item" class="visits">
+                <h3>For Visitor</h3>
+                <p><span class="label"></span><span class="visits"></span></p>
+            </div>
+            <div class="aside-item">
+                <h3>Heading</h3>
+                <img>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                    quam velit, vulputate</p>
+            </div>
+            <section></section>
+        </aside>
+        <main id="main-item">
+            <picture>
+                <img src="images/discover/security-protection-anti-virus-software-60504.webp" alt="placeholder" loading="lazy" width="600" height="400">
+                <img src="images/discover/pexels-photo-351265.jpeg" alt="placeholder" loading="lazy" width="600" height="400">
+                <img src="images/discover/pexels-photo-5380792.webp" alt="placeholder" loading="lazy" width="600" height="400">
+                <img src="images/discover/pexels-photo-5474033.webp" alt="placeholder" loading="lazy" width="600" height="400">
+                <img src="images/discover/pexels-photo-5474288.webp" alt="placeholder" loading="lazy" width="600" height="400">
+                <img src="images/discover/pexels-photo-5483071.webp" alt="placeholder" loading="lazy" width="600" height="400">
+            </picture>
+        </main>
+    </div>
     <footer>
         &copy;<span id="year"></span> | Bernie Zhong | WDD230 - Project
         <p id="lastModified"></p>
@@ -63,5 +67,6 @@
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>
