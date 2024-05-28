@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <meta name="Description" content="'WDD 230', Bernie Zhong, Chamber Home Page">
+    <meta name="Author" content="Bernie Zhong">
+<!--Normalize css apply-->
+    <link rel="stylesheet" href="styles/normalize.css">
+<!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+<!--main css-->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+<!--Favicon-->    
+    <!--<link rel="icon" href="images/favicon.ico">-->
+<!--Open Graph meta tags.-->
+    <meta property="og:title" content="Bernie Zhong">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn-cw-english.cwg.tw/article/202308/article-64dc7e37cbe1f.jpg">
+    <meta property="og:url" content="https://bernie0316.github.io/wdd230/">
+</head>
+<body id="content">
+    <header>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+    <button id="menu"></button>
+    <button id="mode">🌗</button>
+    <div id="container">
+        <aside>
+            <fieldset>
+                <legend>Membership Benefits</legend>
+                <div>
+                    <h3>Bronze Membership</h3>
+                    <p>Enjoy basic discounts and a points program.</p>
+                </div>
+                <div>
+                    <h3>Silver Membership</h3>
+                    <p>Receive additional discounts and priority services while enjoying all Bronze benefits.</p>
+                </div>
+                <div>
+                    <h3>Gold Membership</h3>
+                    <p>Experience top-tier benefits, including free shipping and exclusive VIP events.</p>
+                </div>
+            </fieldset>
+        </aside>
+        <main id="main-item">
+            <form method="get" action="thankyou.html" class="form">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label>First Name* <input id="username" type="text" name="username" required></label>
+                    <label>Last Name* <input id="username" type="text" name="username" required></label>
+                    <label>Email <input id="email" type="email" name="email"></label>
+                    <label>Phone Number <input id="number" type="tel" name="number"></label>
+                    <label>Business/Organization Name <input id="businessname" type="text" name="businessname"></label>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Business</legend>
+                    <label>Membership level
+                        <select name="Subject">
+                                <option value="">Please Select</option>
+                            <option value="nonmember">NP Membership is for non profit organizations and there is no fee</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label>Business/organization description <textarea name="description" id="description"></textarea></label>
+                </fieldset>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Send Form">
+            </form>
+        </main>
+    </div>
+    <footer>
+        &copy;<span id="year"></span> | Bernie Zhong | WDD230 - Project
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>
