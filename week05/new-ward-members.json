@@ -1,0 +1,18 @@
+{ 
+    "familyName" : "data",
+    "moveInDate" : "data",
+    "numberOfPeople" : "data",
+    "bishopricVisited" : "data",
+    "members" : [
+        {
+            "name" : "data",
+            "genger" : "data",
+            "birthdate" : "data"
+        },
+        {
+            "name" : "data",
+            "genger" : "data",
+            "birthdate" : "data"
+        }
+    ]
+}
