@@ -22,11 +22,10 @@ async function apiFetch() {
 apiFetch();
 
 function displayResult(data) {
-    currentTemp.innerHTML = `${data.main.temp}&deg;C`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
-    weatherIcon.setAttribute("src", iconsrc);
-    weatherIcon.setAttribute("alt", desc);
+    // weatherIcon.setAttribute("src", iconsrc);
+    // weatherIcon.setAttribute("alt", desc);
     // captionDesc.textContent = desc.charAt(0).toUperCase() + desc.slice(i);
     captionDesc.innerHTML = `<img src="${iconsrc}" alt="${desc}" style="vertical-align:middle; width:50px; height:50px;" /> ${data.main.temp}&deg;C - ${desc}`;
 }
