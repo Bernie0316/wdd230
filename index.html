@@ -48,6 +48,7 @@
     <main id="home-grid">
         <section id="section1">
             <h2>Learning Activities</h2>
+            <!--
             <ul class="black">
                 <li>Week1: 
                     <a>Layout</a> | 
@@ -70,22 +71,28 @@
                     <a href="week04/tablebuild.html">Data Presentation Tables</a> |
                     <a href="week04/Form-start/index.html">Form</a> |
                 </li>
-                    
                 <li>Week5:
                     <a href="">Pseudo-Classes</a> |
                     <a href="week05/new-ward-members.json">JSON</a> |
                     <a href="week05/prophets.html">API Fetch</a> |
+                    <a href="week05/weather.html">Weather API</a> 
                 </li>
-                <li>Week6:</li>
             </ul>
+            -->
+            <div id="dynamicLinksContainer"></div>
         </section>
         <section class="card" id="section2">
             <h2>
                 Information
             </h2>
             <div class="black">
-                <p id="location"></p>
-                <p id="weather"></p>
+                <div id="weather">
+                    <span id="current-temp">Loading...</span>
+                    <figure>
+                        <img id="weather-icon" src="Weather-Icon">
+                        <figcaption id="weather-cation"></figcaption>
+                    </figure>
+                </div>
                 <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
             </div>
         </section>
@@ -100,5 +107,6 @@
     <script src="scripts/base.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/visits.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
