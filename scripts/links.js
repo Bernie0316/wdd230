@@ -1,5 +1,8 @@
 const baseURL = "https://Bernie0316.github.io/wdd230/";
-const linksURL = "https://Bernie0316.github.io/wdd230/data/links.json";
+// const linksURL = "https://Bernie0316.github.io/wdd230/data/links.json";
+
+// try if able to link with local json file
+const linksURL = "../data/links.json";
 
 async function getLinks() {
     try {

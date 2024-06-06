@@ -10,6 +10,10 @@
                 {
                   "url":"week01/media-query.html",
                   "title":"mQueries"
+                },
+                {
+                  "url":"",
+                  "title":"Js Pen"
                 }
             ]
         },
@@ -40,6 +44,10 @@
                 {
                     "url":"week03/responsive-images.html",
                     "title":"responsive-images"
+                },
+                {
+                  "url":"week03/images/landscape.webp",
+                  "title":"WebP"
                 }
             ]
         },
