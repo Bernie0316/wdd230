@@ -1,0 +1,30 @@
+{
+    "我是註記": "json中的名稱格式不支持空格以及斜線符號(還有些不支持的我不知道)",
+    "我還是註記": "json不支持註記功能",
+    "members": [
+        {
+            "name": "TSMC",
+            "addresses": "No. 8, Li-Hsin 6th Rd., Hsinchu Science Park, Hsinchu, Taiwan 30078, R. O. C.",
+            "number": 88635636688,
+            "URL": "https://www.tsmc.com",
+            "imageFile": "../images/members/tsmcLogo.png",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "Apple",
+            "addresses": "1 Apple Park Way, Cupertino, CA 95014, USA",
+            "number": 4089961010,
+            "URL": "https://www.apple.com",
+            "imageFile": "../images/members/appleLogo.png",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "NVIDIA",
+            "addresses": "2788 San Tomas Expressway, Santa Clara, CA 95051, USA",
+            "number": 4084862000,
+            "URL": "https://www.nvidia.com",
+            "imageFile": "../images/members/nvidiaLogo.png",
+            "membershipLevel": "Gold"
+        }
+    ]
+}
