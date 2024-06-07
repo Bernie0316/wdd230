@@ -1,7 +1,7 @@
 // MakeSure link will goBack homePage when aLink doen't work
-const baseURL = "https://Bernie0316.github.io/wdd230/";
+// const baseURL = "https://Bernie0316.github.io/wdd230/";
 
-// const linksURL = "https://Bernie0316.github.io/wdd230/data/links.json";
+const linksURL = "https://Bernie0316.github.io/wdd230/data/links.json";
 // try if able to link with local json file
 const linksURL = "../data/links.json";
 
