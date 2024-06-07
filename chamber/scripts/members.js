@@ -1,4 +1,5 @@
 const membersURL = "../data/members.json";
+const linksURL = "https://Bernie0316.github.io/wdd230/chamber/data/members.json";
 
 async function getmembers() {
     try {
